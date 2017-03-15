@@ -10,8 +10,8 @@
 <body>
 <br><br><br>
 <div>
-  
- <div  style = 'height: 5%; width: 50%;list-style: none;padding: 60px;text-align: center;  float: left;';>
+ 
+ <div  style = 'height: 5%; width: 50%;list-style: none;padding: 60px;text-align: center;  float: left;'>
  <br>
  <p><br><br> La presente encuesta forma parte de las acciones que estamos llevando adelante como Universidad para conocer la percepci&oacute;n que la comunidad universitaria tiene de la instituci&oacute;n. La informaci&oacute;n recibida es totalmente an&oacute;nima y confidencial. Tu aporte es muy importante. A la Universidad la hacemos entre todos.</p>
  </div>

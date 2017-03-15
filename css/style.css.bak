@@ -125,7 +125,7 @@ table {
 body {
   font:normal 20px Arial, Helvetica, sans-serif;
   color: #404040;
-
+  
   text-align: center;
 }
 
