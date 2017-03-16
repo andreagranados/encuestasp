@@ -123,9 +123,9 @@ table {
 }
 /* font: 18px/20px 'Lucida Grande', Verdana, sans-serif;*/
 body {
-  font:normal 20px Arial, Helvetica, sans-serif;
+  font:normal 25px Arial, Helvetica, sans-serif;
   color: #404040;
-  
+  background: #9CC7E5;
   text-align: center;
 }
 

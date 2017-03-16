@@ -18,14 +18,15 @@ $link =$_SESSION['link'];
 </head>
 <body>
 <br><br><br>
-  <p> <?php echo $nombreapellido ?> nos interesa tu opini&oacute;n</p>
+<p id="especial"> <em><?php echo $nombreapellido ?></em> </p>
+<p>te invitamos a contestar tu encuesta</p>
   <p> <?php echo $descripcion ?></p>
 <br>  
   
   <a target="_self"  href="redireccion.php"  ><img src="css/img/boton-encuesta1.png"></a>
   
   <footer id="main"> 
-   	<p> 2017 - Secretar&iacute;a de Planeamiento y Desarrollo Institucional - Universidad Nacional del Comahue. <img src="css/img/logo_institucion.png" width="50" height="50"></p>
+   	<p> 2017- Secretar&iacute;a de Planeamiento y Desarrollo Institucional - Universidad Nacional del Comahue. <img src="css/img/logo_institucion.png" width="50" height="50"></p>
   </footer>
 </body>
 </html>

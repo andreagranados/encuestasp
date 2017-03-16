@@ -16,12 +16,11 @@ if(trim($_POST["usuario"]) != "" ){
 
         }else{
 		$sql="SELECT * FROM usuarios a, usuario_datos b WHERE a.idusuario=b.idusuario and usuario = '$usuario' and password = '$password' ";
-		
 		//ejecutamos la consulta
 		$result = pg_query($sql);
 		if($row = pg_fetch_array($result)){
-	 		echo($password);
-	 	  	if(trim($row["password"]) == trim($password)){
+	 		
+	 	  	if($row["password"] == $password){
 	 	  		$_SESSION['logueado']		= true;
 	 	  		$_SESSION['usuario']		= $row["usuario"];
 	 	  		$_SESSION['nombreapellido']	= $row["nombreapellido"];
