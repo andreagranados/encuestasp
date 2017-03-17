@@ -2,8 +2,8 @@
 
 $servidor="localhost";
 $base = "encuestasp";
-$usuario="usbackup";
-$password="usbackup";
+$usuario="postgres";
+$password="postgres";
 $port=5432;
 
 $strCnx = "host=$servidor port=$port dbname=$base user=$usuario password=$password";
