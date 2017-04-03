@@ -15,28 +15,26 @@ if(trim($_POST["usuario"]) != "" ){
            echo "<script>alert('No coincide el usuario y el password');window.location='index.php';</script>";
 
         }else{
-		$sql="SELECT * FROM usuarios a, usuario_datos b WHERE a.idusuario=b.idusuario and usuario = '$usuario' and password = '$password' ";
+		$sql="SELECT * FROM usuarios a WHERE usuario = '$usuario' and password = '$password' ";
 		
 		//ejecutamos la consulta
 		$result = pg_query($sql);
 		if($row = pg_fetch_array($result)){
-	 		echo($password);
+                    
 	 	  	if(trim($row["password"]) == trim($password)){
-	 	  		$_SESSION['logueado']		= true;
-	 	  		$_SESSION['usuario']		= $row["usuario"];
-	 	  		$_SESSION['nombreapellido']	= $row["nombreapellido"];
-	 	  		$_SESSION['link']		= $row["link_encuesta"];
-	 	  		$_SESSION['descripcion']	= $row["descripcion"];
+                                $sql="SELECT * FROM link a WHERE a.idusuario =". $row["idusuario"]." AND a.ingreso=0";
+                                
+                                $result2 = pg_query($sql);
+                                
+                                if($row2 = pg_fetch_array($result2)){
+                                    $_SESSION['idusuario']	= $row["idusuario"];
+                                    $_SESSION['nombreapellido']	= $row["nombreapellido"];
+                                    header( "Location: inicio.php" ) ;
+                                }else{
+                                    //ya pincho en todas las encuestas
+                                    echo "<script>alert('Usted ya hab\u00EDa ingresado previamente a contestar');window.location='index.php';</script>";
+                                }
 
-	 	  		if ($row["ingreso"] == 0){//es la primera vez que ingresa
-	 	  			header( "Location: inicio.php" ) ;
-	 	  			
-	 	  			}
-	 	  		else{
-	 	  			
-	 	  			echo "<script>alert('Usted ya hab\u00EDa ingresado previamente');window.location='index.php';</script>";
-	 	  			}
-	 	  	
 	 	  	}else {
    		       		
    		       		echo "<script>alert('Password incorrecto');window.location='index.php';</script>";
