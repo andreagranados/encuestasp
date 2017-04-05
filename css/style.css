@@ -1,52 +1,48 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p,blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
+section,aside {
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+		padding: 10px;
+		-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;
 
-body {
-  line-height: 1;
-}
+	}
+section {
 
-ol, ul {
-  list-style: none;
-}
+		float: left;
+                clear:none;
+		width: 70%;
+                margin:70px auto;
 
-blockquote, q {
-  quotes: none;
-}
+	}
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
+aside {
+                margin:10px auto;
+		float: left;
+		height: 15%;
+		width: 25%;
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+	}
+	
+footer#main{
+	
+	bottom:10px;
+	text-align:center;
+	font:normal 15px Arial, Helvetica, sans-serif;
+	width:100%;
+	clear:left;// no permite ningun elemento flotando a su izquierda
+        float: left;
+}       
 
+#main { width:960px; margin:0 auto; }
+
+.container {
+		width:996px;
+		margin:70px auto;
+		font-size:1em;
+              
+	}
+img {
+max-height: 50%;
+max-width: 50%;
+}        
 .about {
   margin: 70px auto 40px;
   padding: 8px;
@@ -141,7 +137,7 @@ input, textarea, select, label {
 }
 
 .login {
-  margin: 50px auto;
+  margin: 10px auto;
   padding: 18px 20px;
   width: 200px;
   background: #3f65b7;
@@ -224,8 +220,9 @@ input, textarea, select, label {
 }
 
 .login-help {
-  text-align: center;
+   text-align: center;
    font-size: 12px;
+   color: white;//antes no estaba y se veia gris
 }
 .login-help > a {
   font-size: 11px;
@@ -239,11 +236,101 @@ input, textarea, select, label {
 
     
         
-footer#main{
-	position:fixed;
-	left:0;
-	bottom:10px;
-	text-align:center;
-	font:normal 15px Arial, Helvetica, sans-serif;
-	width:100%;
-}       
+
+
+/* para 980px o menos */
+
+	@media screen and (max-width:980px) {
+
+		.container {
+
+			width:98%;
+
+		}
+
+		section {
+
+			width:68%;
+		
+
+		}
+
+	}
+
+ 
+
+	/* para 700px o menos */
+
+	@media screen and (max-width:700px) {
+
+		aside,section {
+
+			float:none;
+
+			width:96%;
+
+		}
+
+		nav, section {
+
+			font-size:1.2em;
+
+		}
+
+		aside {
+
+			margin-top:5px;
+
+		}
+
+		nav ul {
+
+			float:none;
+
+			clear:both;
+
+		}
+
+	}
+
+ 
+
+	/* para 480px o menos */
+
+	@media screen and (max-width:480px) {
+
+		aside {
+
+			display:none;
+
+		}
+
+		nav, section {
+
+			font-size:1.5em;
+
+		}
+
+		section {
+
+			width:94%;
+
+		}
+
+		nav ul {
+
+			float:left;
+
+			clear:none;
+
+			width:50%;
+
+		}
+
+		nav ul li {
+
+			float:none;
+
+		}
+
+	}
