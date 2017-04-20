@@ -24,7 +24,7 @@ $nombreapellido =$_SESSION['nombreapellido'];
       
       while($registro=pg_fetch_array($result)){  ?>
         <p> <?php echo $registro["descripcion"];?> </p>
-        <a target="_self"  href="redireccion.php?identif=<?php echo $registro["id"] ?>"  ><img src="css/img/boton-encuesta1.png"></a>
+        <a target="_self"  href="redireccion.php?identif=<?php echo $registro["id"] ?>"  ><img src="images/boton-encuesta1.png"></a>
      <?php }?>
 
      
