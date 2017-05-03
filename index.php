@@ -67,12 +67,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="col-md-5 col-xs-12 text-center">
-                        <img src="images/product-1.png" alt="">
+                     <!--   <img src="images/product-1.png" alt="">-->
                     </div>                    
                     <div class="product-content col-md-7 col-xs-12">
-                        <h3>La presente encuesta es an&oacute;nima y puede realizarse s&oacute;lo una vez. Solicitamos su DNI al inicio para asegurarnos que sea miembro de la comunidad universitaria de la Universidad Nacional del Comahue.
+                       <!-- <h3>La presente encuesta es an&oacute;nima y puede realizarse s&oacute;lo una vez. Solicitamos su DNI al inicio para asegurarnos que sea miembro de la comunidad universitaria de la Universidad Nacional del Comahue.
   La encuesta no puede interrumpirse y retomarse en otro momento. Una vez que acceda al cuestionario, no podr&aacute; volver a responderlo.
-Toda la informaci&oacute;n consignada aqu&iacute; ser&aacute; un insumo muy importante para el Plan de Desarrollo Institucional.</h3>
+Toda la informaci&oacute;n consignada aqu&iacute; ser&aacute; un insumo muy importante para el Plan de Desarrollo Institucional.</h3>-->
                         
                     </div>
                 </div> <!-- .col-md-6 -->

@@ -30,16 +30,15 @@ $nombreapellido =$_SESSION['nombreapellido'];
     <link rel="stylesheet" href="css/templatemo_style.css">
 
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <title>Encuestas SPI</title>
+    <title>Encuestas PDI</title>
       
   
 </head>
 <body id="texto">
 <br><br><br>
-<p>Recuerde! una vez que ingrese al cuestionario, debe responder la encuesta completa, ya que no podr&aacute; volver a acceder al mismo.<br>
+<p> &#161;Recuerde! Una vez que ingrese al cuestionario, debe responder la encuesta completa, ya que no podr&aacute; volver a acceder al mismo.<br>
 Por favor, lea detenidamente las preguntas y las opciones antes de responder.</p>
 <p id="especial"> <em><?php echo $nombreapellido ?></em> </p>
-<p>te invitamos a contestar estas encuestas</p>
 <?php $sql="select * from link where idusuario=".$idusuario." and ingreso=0";
       $result = pg_query($sql);
       
