@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Ocean HTML5 Template</title>
+    <title>Encuestas PDI</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     
@@ -70,7 +70,9 @@
                         <img src="images/product-1.png" alt="">
                     </div>                    
                     <div class="product-content col-md-7 col-xs-12">
-                        <h3>La presente encuesta forma parte de las acciones que estamos llevando adelante como Universidad para conocer la percepci&oacute;n que la comunidad universitaria tiene de la instituci&oacute;n. La informaci&oacute;n recibida es totalmente an&oacute;nima y confidencial. Tu aporte es muy importante. A la Universidad la hacemos entre todos.</h3>
+                        <h3>La presente encuesta es an&oacute;nima y puede realizarse s&oacute;lo una vez. Solicitamos su DNI al inicio para asegurarnos que sea miembro de la comunidad universitaria de la Universidad Nacional del Comahue.
+  La encuesta no puede interrumpirse y retomarse en otro momento. Una vez que acceda al cuestionario, no podr&aacute; volver a responderlo.
+Toda la informaci&oacute;n consignada aqu&iacute; ser&aacute; un insumo muy importante para el Plan de Desarrollo Institucional.</h3>
                         
                     </div>
                 </div> <!-- .col-md-6 -->
@@ -103,9 +105,9 @@
             
             <div class="row">
                <div class="col-md-5 contact-info">  
-               <p>Por cualquier consulta, puede comunicarse con la Subsecretar&iacute;a de Planeamiento y Desarrollo Institucional, telef&oacute;nicamente o por mail:</p>
+               <p>Por cualquier consulta, puede comunicarse con la Secretar&iacute;a de Planeamiento y Desarrollo Institucional, telef&oacute;nicamente o por mail:</p>
                    <ul>
-                       <li><i class="fa fa-phone"></i> (0299)4490300 interno 717</li>
+                       <li><i class="fa fa-phone"></i> (0299) 4490300 interno 717</li>
 			<li><i class="fa fa-envelope"></i> <a href="mailto:secretaria.planeamiento@central.uncoma.edu.ar">secretaria.planeamiento@central.uncoma.edu.ar</a></li>
                    </ul>
                </div> <!-- .col-md-5 -->

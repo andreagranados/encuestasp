@@ -21,6 +21,24 @@ body {
   font-size: 1em;
   line-height: 1.4;
 }
+#texto {
+  font:normal 25px Arial, Helvetica, sans-serif;
+  color: #404040;
+  background: #9CC7E5;
+  text-align: center;
+}
+#especial em {
+  font-weight: bold;
+}
+footer#main{
+	
+	bottom:10px;
+	text-align:center;
+	font:normal 15px Arial, Helvetica, sans-serif;
+	width:100%;
+	clear:left;// no permite ningun elemento flotando a su izquierda
+        float: left;
+}    
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -258,10 +276,10 @@ input.main-button,
   overflow: hidden;
   padding-bottom: 10px;
 }
-@include transition(all 250ms ease-in-out);
+/*@include transition(all 250ms ease-in-out);
 .site-header .logo {
   margin-top: 42px;
-}
+}*/
 .site-header.scrolled {
   background: white;
 }

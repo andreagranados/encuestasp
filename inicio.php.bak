@@ -34,7 +34,7 @@ $nombreapellido =$_SESSION['nombreapellido'];
       
   
 </head>
-<body id="texto">
+<body>
 <br><br><br>
 <p>Recuerde! una vez que ingrese al cuestionario, debe responder la encuesta completa, ya que no podr&aacute; volver a acceder al mismo.<br>
 Por favor, lea detenidamente las preguntas y las opciones antes de responder.</p>
