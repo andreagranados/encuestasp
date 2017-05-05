@@ -469,7 +469,7 @@ a#mobile_menu {
   transform: rotate(360deg);
 }
 #products {
-  background: url(../images/products-bg.png) no-repeat top center;
+  background: url(../images/fondo.png) no-repeat top center;
   background-size: cover;
   position: relative;
   z-index: 11;

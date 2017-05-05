@@ -66,8 +66,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
+                    <p style="border: 2px solid #3e9efe;border-radius: 1em; padding: 10px; COLOR: #000000; BACKGROUND-COLOR: #6f90b8; font-family: arial,helvetica; font-size: 14px; font-weight: bold;">LA ENCUESTA ES AN&#211;NIMA. <br> Solicitamos su DNI al inicio, &uacute;nicamente para asegurarnos que pertenece a la Universidad.</p>
+                    <p style="border: 2px solid #3e9efe;border-radius: 1em; padding: 10px; COLOR: #000000; BACKGROUND-COLOR: #99CC66; font-family: arial,helvetica; font-size: 14px; font-weight: bold;">LA ENCUESTA PUEDE REALIZARSE S&#211;LO UNA VEZ. Es decir, no puede interrumpirse y retomarse en otro momento. Una vez que accede al cuestionario, no podr&aacute; volver a responderlo. <br> Solicitamos su DNI al inicio, &uacute;nicamente para asegurarnos que pertenece a la Universidad.</p>
+                    <p style="border: 2px solid #3e9efe;border-radius: 1em; padding: 10px; COLOR: #000000; BACKGROUND-COLOR: #FF9900; font-family: arial,helvetica; font-size: 14px; font-weight: bold;">LE TOMAR&#193 SOLAMENTE ALGUNOS MINUTOS RESPONDERLA.<br>Lea detenidamente las preguntas y las opciones antes de responder.</p>
+                    <p style="border: 2px solid #3e9efe;border-radius: 1em; padding: 10px; COLOR: #000000; BACKGROUND-COLOR: #FF3399; font-family: arial,helvetica; font-size: 14px; font-weight: bold;">Toda la informaci&oacute;n consignada aqu&iacute; ser&aacute; un insumo muy importante para el Plan de Desarrollo Institucional de la Universidad.</p>
                     <div class="col-md-5 col-xs-12 text-center">
-                     <!--   <img src="images/product-1.png" alt="">-->
+                        <!--<img src="images/product-1.png" alt="">-->
                     </div>                    
                     <div class="product-content col-md-7 col-xs-12">
                        <!-- <h3>La presente encuesta es an&oacute;nima y puede realizarse s&oacute;lo una vez. Solicitamos su DNI al inicio para asegurarnos que sea miembro de la comunidad universitaria de la Universidad Nacional del Comahue.
@@ -86,12 +90,13 @@ Toda la informaci&oacute;n consignada aqu&iacute; ser&aacute; un insumo muy impo
     				<input type="text" name="usuario" id="usuario" class="login-input" placeholder="usuario" autofocus required/>
     				<input type="password" name="password" id="password" class="login-input" placeholder="clave" required/>
     				<input type="submit" value="Ingresar" class="login-submit">
-    				<p class="login-help ">Ingresa con tu DNI como usuario y como clave.</p>
+    				<!--<p class="login-help ">Ingresa con tu DNI como usuario y como clave.</p>-->
   			</form>  
                     </div>
-                    <!--<div class="col-md-5 col-xs-12 text-center">
-                        <img src="images/product-2.png" alt="">
-                    </div>-->
+                    <div class="col-md-5 col-xs-12 text-center">
+                        <!--<img src="images/product-2.png" alt="">-->
+                        <img src="images/imagen2.png" alt="">
+                    </div>
                 </div> <!-- .col-md-6 -->
             </div>
         </div>
@@ -110,8 +115,9 @@ Toda la informaci&oacute;n consignada aqu&iacute; ser&aacute; un insumo muy impo
                        <li><i class="fa fa-phone"></i> (0299) 4490300 interno 717</li>
 			<li><i class="fa fa-envelope"></i> <a href="mailto:secretaria.planeamiento@central.uncoma.edu.ar">secretaria.planeamiento@central.uncoma.edu.ar</a></li>
                    </ul>
+                   
                </div> <!-- .col-md-5 -->
-              
+               <p>2017 - Secretar&iacute;a de Planeamiento y Desarrollo Institucional - Universidad Nacional del Comahue.<img src="images/logo_institucion.png" width="50" height="50"></p>              
             </div> <!-- .row -->
         </div> <!-- .container -->
     </div> <!-- #contact -->
@@ -122,7 +128,7 @@ Toda la informaci&oacute;n consignada aqu&iacute; ser&aacute; un insumo muy impo
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-right">
-                    <p>2017 - Secretar&iacute;a de Planeamiento y Desarrollo Institucional - Universidad Nacional del Comahue.<img src="images/logo_institucion.png" width="50" height="50"> </p>
+                    <!--<p>2017 - Secretar&iacute;a de Planeamiento y Desarrollo Institucional - Universidad Nacional del Comahue.<img src="images/logo_institucion.png" width="50" height="50"> </p>-->
                 </div> <!-- .col-md-12 -->
             </div> <!-- .row -->
         </div> <!-- .container -->
