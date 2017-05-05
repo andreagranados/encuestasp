@@ -36,6 +36,7 @@ $nombreapellido =$_SESSION['nombreapellido'];
 </head>
 <body id="texto">
 <br><br><br>
+
 <p> &#161;Recuerde! Una vez que ingrese al cuestionario, debe responder la encuesta completa, ya que no podr&aacute; volver a acceder al mismo.<br>
 Por favor, lea detenidamente las preguntas y las opciones antes de responder.</p>
 <p id="especial"> <em><?php echo $nombreapellido ?></em> </p>
@@ -52,5 +53,6 @@ Por favor, lea detenidamente las preguntas y las opciones antes de responder.</p
   <footer id="main"> 
    	<p> 2017- Secretar&iacute;a de Planeamiento y Desarrollo Institucional - Universidad Nacional del Comahue. <img src="images/logo_institucion.png" width="50" height="50"></p>
   </footer>
+
 </body>
 </html>

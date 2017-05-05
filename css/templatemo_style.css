@@ -22,11 +22,11 @@ body {
   line-height: 1.4;
 }
 #texto {
+  background: url(../images/fondo.png) no-repeat top center;
   font:normal 25px Arial, Helvetica, sans-serif;
   color: #404040;
-  background: #9CC7E5;
   text-align: center;
-}
+}/*background: #9CC7E5;*/
 #especial em {
   font-weight: bold;
 }
