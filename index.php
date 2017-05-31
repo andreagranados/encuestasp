@@ -63,7 +63,9 @@
     
     <!-- PRODUCTS -->
     <div class="content-section" id="products">
+        
         <div class="container">
+            <p style="border: 2px solid #3e9efe;border-radius: 1em; padding: 10px; COLOR: #000000; BACKGROUND-COLOR: #FFFFFF; font-family: arial,helvetica; font-size: 24px; font-weight: bold;text-align: center;">Universidad Nacional del Comahue<br>PLAN DE DESARROLLO INSTITUCIONAL</p>
             <div class="row">
                 <div class="col-md-6">
                     <p style="border: 2px solid #3e9efe;border-radius: 1em; padding: 10px; COLOR: #000000; BACKGROUND-COLOR: #6f90b8; font-family: arial,helvetica; font-size: 14px; font-weight: bold;">LA ENCUESTA ES AN&#211;NIMA. <br> Solicitamos su DNI al inicio, &uacute;nicamente para asegurarnos que pertenece a la Universidad.</p>
