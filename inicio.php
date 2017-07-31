@@ -40,7 +40,7 @@ $nombreapellido =$_SESSION['nombreapellido'];
 <p> &#161;Recuerde! Una vez que ingrese al cuestionario, debe responder la encuesta completa, ya que no podr&aacute; volver a acceder al mismo.<br>
 Por favor, lea detenidamente las preguntas y las opciones antes de responder.</p>
 <p id="especial"> <em><?php echo $nombreapellido ?></em> </p>
-<?php $sql="select * from link where idusuario=".$idusuario." and ingreso=0 and (claustro='E' or claustro='A')";
+<?php $sql="select * from link where idusuario=".$idusuario." and ingreso=0 and (claustro='E' or claustro='A' or claustro='N')";
       $result = pg_query($sql);
       if(pg_num_rows($result)==0){
           echo "<p>No tiene encuestas pendientes</p>";
